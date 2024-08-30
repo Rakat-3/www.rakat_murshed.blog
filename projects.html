@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Rakat Murshed</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Rakat Murshed</h1>
+            <p>Machine Learning & Deep Learning Expert</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+
+            <div class="project-item">
+                <h3>Potato Disease Classification Using Deep Learning</h3>
+                <p><strong>Objective:</strong> The aim of this project is to develop a deep learning model capable of accurately classifying images of potato leaves into three categories: "Early Blight", "Late Blight", and "Healthy". This classification is crucial for early detection and management of potato plant diseases.</p>
+                <p><strong>Methodology:</strong> The dataset used for this project consists of 2,152 images distributed across the three classes. The images were resized and normalized, with data augmentation techniques applied to improve model generalization. The model architecture included several convolutional layers, max-pooling layers, and fully connected layers, with the final layer using softmax activation to output probabilities for each class.</p>
+                <p><strong>Results:</strong> The model achieved an accuracy of 88.67% on the test dataset. The training accuracy increased steadily, and the validation accuracy also improved, indicating effective learning. The model successfully predicted the classes of potato leaf images with high confidence.</p>
+                <p><strong>Conclusion:</strong> The developed model shows promising results in classifying potato diseases based on leaf images. Further refinement could enhance performance, highlighting the potential of deep learning in agricultural applications.</p>
+                <a href="potato_disease_classification.html">Read more</a> |
+                <a href="https://github.com/Rakat-3" target="_blank">
+                    <img src="github-logo.png" alt="GitHub" class="github-logo"> View on GitHub
+                </a>
+            </div>
+
+            <div class="project-item">
+                <h3>SMS Spam Classification</h3>
+                <p><strong>Objective:</strong> The project focuses on building a machine learning model to classify SMS messages as either "spam" or "not spam" (ham). The goal is to develop a reliable classifier and deploy it as a web application for real-time use.</p>
+                <p><strong>Methodology:</strong> Data cleaning involved removing unnecessary columns and duplicates. Text preprocessing included converting text to lowercase, tokenization, and removing special characters. The model was built using TF-IDF vectorization and various classifiers, with Multinomial Naive Bayes achieving the best performance. The model was then deployed using Streamlit.</p>
+                <p><strong>Results:</strong> The best-performing model achieved an accuracy of 97.20% on the test dataset. The Streamlit web app provides a user-friendly interface for classifying SMS messages in real-time.</p>
+                <p><strong>Conclusion:</strong> The project demonstrates the potential of machine learning in addressing real-world problems, with a practical application for SMS message classification.</p>
+                <a href="sms_spam_classification.html">Read more</a> |
+                <a href="https://github.com/Rakat-3" target="_blank">
+                    <img src="github-logo.png" alt="GitHub" class="github-logo"> View on GitHub
+                </a>
+            </div>
+
+            <div class="project-item">
+                <h3>X-Ray Image Classification to Identify Pneumonia</h3>
+                <p><strong>Objective:</strong> This project aims to develop a Convolutional Neural Network (CNN) model to classify chest X-ray images into "Normal" and "Pneumonia" categories, aiding in the early detection of pneumonia.</p>
+                <p><strong>Methodology:</strong> The dataset consists of chest X-ray images categorized into two classes. The images were preprocessed by resizing, normalizing, and applying data augmentation. The CNN model was designed with multiple convolutional layers, max-pooling layers, and fully connected layers. Training was conducted using the Adam optimizer and binary cross-entropy loss, with a 3-fold cross-validation strategy.</p>
+                <p><strong>Results:</strong> The model demonstrated strong performance, with validation mean squared error (MSE) ranging from 0.06 to 0.07 and R-squared scores indicating reasonable predictive power.</p>
+                <p><strong>Conclusion:</strong> The project successfully developed a CNN model for classifying chest X-ray images into Normal and Pneumonia categories, with potential for further improvement.</p>
+                <a href="xray_pneumonia_classification.html">Read more</a> |
+                <a href="https://github.com/Rakat-3" target="_blank">
+                    <img src="github-logo.png" alt="GitHub" class="github-logo"> View on GitHub
+                </a>
+            </div>
+
+            <div class="project-item">
+                <h3>Image Classification Using InceptionV3 on Intel Image Dataset</h3>
+                <p><strong>Objective:</strong> This project focuses on implementing a Convolutional Neural Network (CNN) using the InceptionV3 model for classifying images from the Intel Image Dataset into six categories: buildings, forest, glacier, mountain, sea, and street.</p>
+                <p><strong>Methodology:</strong> The dataset was split into training and testing sets. The top layers of the pre-trained InceptionV3 model were removed and replaced with custom fully connected layers. The model was trained with data augmentation and the Adam optimizer, and fine-tuning was performed by unfreezing the top layers.</p>
+                <p><strong>Results:</strong> The model achieved a validation accuracy of 86.80%, demonstrating the effectiveness of transfer learning with limited data.</p>
+                <p><strong>Conclusion:</strong> The project successfully implemented image classification using InceptionV3, showing the power of transfer learning in computer vision tasks.</p>
+                <a href="intel_image_classification.html">Read more</a> |
+                <a href="https://github.com/Rakat-3" target="_blank">
+                    <img src="github-logo.png" alt="GitHub" class="github-logo"> View on GitHub
+                </a>
+            </div>
+
+            <div class="project-item">
+                <h3>Laptop Price Predictor</h3>
+                <p><strong>Objective:</strong> The project involves developing a machine learning model to predict laptop prices based on their specifications. The goal is to provide a practical tool for estimating laptop prices.</p>
+                <p><strong>Methodology:</strong> The dataset includes various laptop specifications such as brand, RAM, processor type, storage type, and screen size. Feature engineering was applied to extract key features, and multiple regression models were evaluated, with Random Forest performing the best. The model was deployed using Streamlit.</p>
+                <p><strong>Results:</strong> The Random Forest model achieved an R-squared score of 0.85 and a Mean Absolute Error of approximately $150, making it a reliable predictor of laptop prices.</p>
+                <p><strong>Conclusion:</strong> The project successfully developed a machine learning model for predicting laptop prices, with a user-friendly web app for real-time predictions.</p>
+                <a href="laptop_price_predictor.html">Read more</a> |
+                <a href="https://github.com/Rakat-3" target="_blank">
+                    <img src="github-logo.png" alt="GitHub" class="github-logo"> View on GitHub
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Rakat Murshed. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

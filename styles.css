@@ -1,0 +1,600 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4CAF50;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.bio {
+    max-width: 600px;
+}
+
+.bio p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.education {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edu-item {
+    margin-bottom: 20px;
+}
+
+.edu-item h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.edu-item p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+/*........... experience level ........*/
+
+/* Existing styles... */
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4CAF50;
+}
+
+.experience-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.experience-item h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.experience-item p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.experience-item ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.experience-item ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/*........... skills ........*/
+
+/* Existing styles... */
+
+/* Existing styles... */
+
+.skill-item {
+    margin-bottom: 20px;
+}
+
+.skill-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4CAF50;
+}
+
+.certificate-item {
+    margin-bottom: 20px;
+}
+
+.certificate-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.certificate-item p {
+    font-size: 16px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Existing styles... research ... */
+
+.research-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.research-item h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.research-item p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.current-research {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.current-research h3 {
+    font-size: 22px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.current-research p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Existing styles. projects.. */
+
+/* Existing styles... */
+
+.project-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.project-item h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.project-item a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.project-item a:hover {
+    text-decoration: underline;
+}
+
+.github-logo {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+/* Existing styles... */
+
+#project h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4CAF50;
+}
+
+#project h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#project p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.github-logo {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+/* Existing styles... */
+
+#project h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4CAF50;
+}
+
+#project h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#project p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.github-logo {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Existing styles... */
+
+#project h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4CAF50;
+}
+
+#project h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#project p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.github-logo {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+/* Existing styles... */
+
+#contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4CAF50;
+}
+
+#contact p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.contact-logo {
+    width: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+/* Existing styles... */
+
+#contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4CAF50;
+}
+
+#contact p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.contact-logo {
+    width: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+/* Existing styles... */
+
+#hobbies h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4CAF50;
+}
+
+.hobby-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.hobby-item h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.hobby-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
